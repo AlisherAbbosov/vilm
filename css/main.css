@@ -1,0 +1,151 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  background: #1a1f38;
+  padding: 16px 70px;
+}
+
+.form__search {
+  position: relative;
+}
+
+.search__input {
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 7px 19px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 8px;
+  border: none;
+}
+
+.search__input:focus {
+  border: none;
+  outline: none;
+}
+
+.search__btn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 4px;
+  right: 12px;
+}
+
+.search__icon {
+  height: 23px;
+  width: 23px;
+}
+
+/* HERO */
+.hero {
+  padding: 222px 500px 90px 81px;
+  background-image: url("/img/card-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__movie-title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 75px;
+  margin-bottom: 20px;
+}
+
+.hero__movie__summary {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  margin-bottom: 40px;
+}
+
+.hero__movie-reting-box {
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  width: 90px;
+  justify-content: space-between;
+}
+
+/* RESULT */
+
+.section__result {
+  padding: 52px 0;
+  background-color: #000000;
+}
+
+.result__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+
+.movie__card {
+  box-shadow: 5px 10px 20px rgb(255 254 254 / 15%);
+  background: #050e12;
+  border-radius: 6px;
+  color: #b6b6b6;
+  transition: all 0.3s;
+  height: 100%;
+}
+.movie__card:hover {
+  transform: translateY(-1.5px) scale(1.01);
+}
+
+.movie__card-img {
+  height: 290px;
+  width: 194px;
+}
+
+.card__body {
+  padding: 15px 18px 12px;
+}
+
+.card__movie-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.card__movie-year {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer {
+  padding: 110px 0 140px 70px;
+  background-color: #000000;
+}
+
+.footer__wrapper {
+  display: flex;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 58px;
+  justify-content: space-between;
+  width: 300px;
+  color: #e2e2e2;
+  align-items: center;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.movies__list {
+  justify-content: center;
+}
+.movies__item {
+  margin-bottom: 30px;
+}
